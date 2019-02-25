@@ -7,9 +7,9 @@ public class MathOperations {
         int secondNumber = 5;
 
         int sumOfNumber = firstNumber + secondNumber;
-        int subtrctionOfNumbers = firstNumber - secondNumber;
-        int devideNumbers = firstNumber / secondNumber;
-        int multiplieNumbers = firstNumber * secondNumber;
+        int subtrctionOfNumbers = firstNumber - secondNumber;   //pareizrakstība "subtrction"
+        int devideNumbers = firstNumber / secondNumber;         //pareizrakstība "devide"
+        int multiplieNumbers = firstNumber * secondNumber;       //pareizrakstība "multiplie"
 
         System.out.println( "Sum of numbers is " + sumOfNumber +
                 " Subtraction of numbers is " + subtrctionOfNumbers +

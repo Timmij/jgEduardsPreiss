@@ -1,4 +1,4 @@
-package homework3;
+package lv.homework3;
 
 public class Car {
 
@@ -30,13 +30,13 @@ public class Car {
         this.year = year;
     }
 
-
-
-
-
-
-
-
+//
+//
+// daudz lieku tukšo rindu
+//
+//
+//
+//
 }
 
 

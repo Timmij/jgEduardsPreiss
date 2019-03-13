@@ -1,4 +1,4 @@
-package homework3;
+package lv.homework3;
 
 public class Circle {
 
@@ -13,7 +13,7 @@ public class Circle {
     }
 
     double calculateArea(){
-        return 3.14* radius *radius;
+        return 3.14* radius *radius;  // ctrl + alt + l
 
     }
 

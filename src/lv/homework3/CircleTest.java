@@ -1,5 +1,6 @@
-package homework3;
+package lv.homework3;
 
+//Ok
 public class CircleTest {
 
     public static void main(String[] args) {

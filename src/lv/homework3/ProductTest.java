@@ -1,4 +1,4 @@
-package homework3;
+package lv.homework3;
 
 public class ProductTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package homework2;
+package lv.homework2;
 
 public class MathOperations {
     public static void main(String[] args) {

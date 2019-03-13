@@ -1,5 +1,6 @@
-package homework3;
+package lv.homework3;
 
+//ctrl + alt + l
 public class Product {
 
     private String name;

@@ -10,7 +10,7 @@ public class StockTest {
         dell.updatePrice(160.3);
         dell.updatePrice(90);
         dell.printInformation();
-
-
+//lieka rinda
+//lieka rinda
     }
 }

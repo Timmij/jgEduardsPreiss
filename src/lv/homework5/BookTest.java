@@ -1,5 +1,6 @@
 package lv.homework5;
 
+//Ok
 public class BookTest {
 
     public static void main(String[] args) {

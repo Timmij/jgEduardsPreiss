@@ -12,7 +12,7 @@ public class Stock {
         this.value = currentValue;
         this.max = currentValue;
         this.min = currentValue;
-
+//lieka rinda
     }
 
     public String getCompany() {
@@ -55,7 +55,7 @@ public class Stock {
             min = currentValue;
         }
         this.value = currentValue;
-
+//lieka rinda
     }
 
     public void printInformation() {
@@ -63,6 +63,6 @@ public class Stock {
                 + " Max = " + max
                 + " Min = " + min);
     }
-
-
+//lieka rinda
+//lieka rinda
 }

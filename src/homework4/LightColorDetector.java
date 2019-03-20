@@ -1,5 +1,6 @@
 package homework4;
 
+//ctrl + alt + l
 public class LightColorDetector {
 
     public String detect (int wavelength){

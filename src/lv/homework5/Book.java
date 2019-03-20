@@ -2,6 +2,7 @@ package lv.homework5;
 
 import java.util.Objects;
 
+//Ok
 public class Book {
 
     private String author;

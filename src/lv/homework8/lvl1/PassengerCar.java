@@ -27,6 +27,7 @@ public class PassengerCar extends Car {
         if (this == o) return true;
         if (!(o instanceof PassengerCar)) return false;
         PassengerCar that = (PassengerCar) o;
+        //labāk realizēt equals metodi super klasē un tad to izmantot
         return brand == that.brand &&
                 color == that.color &&
                 passengerSeatCount == that.passengerSeatCount &&

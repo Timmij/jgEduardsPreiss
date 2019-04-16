@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Truck extends Car {
 
-    protected int trucksCargoCapasity;
+    protected int trucksCargoCapasity; //Typo
 
     public Truck(String brand, String color, int trucksCargoCapasity) {
         super(brand, color);
@@ -23,10 +23,13 @@ public class Truck extends Car {
         if (this == o) return true;
         if (!(o instanceof Truck)) return false;
         Truck truck = (Truck) o;
+        //color un brand arī jāsalīdzina
+        //labāk realizēt equals metodi super klasē un tad to izmantot
         return trucksCargoCapasity == truck.trucksCargoCapasity;
     }
 
     @Override
+    //color un brand arī jāiekļauj
     public int hashCode() {
         return Objects.hash(trucksCargoCapasity);
     }

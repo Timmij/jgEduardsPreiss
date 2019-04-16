@@ -1,5 +1,6 @@
 package lv.homework8.lvl1;
 
+//šai ir jābūt vienkārši klasei
 public abstract class Car {
 
     protected String brand;

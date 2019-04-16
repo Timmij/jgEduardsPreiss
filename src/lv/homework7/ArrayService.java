@@ -18,14 +18,15 @@ public class ArrayService {
     }
 
     public static int fillArrayWithRandomNumbers() {
-        Random rand = new Random();
+        Random rand = new Random(); //šo objektu jāizveido pie konstruktora un jaines klases līmenī
         int randomNum = rand.nextInt((int) (Math.random() * 101));
         return randomNum;
     }
 
+    //summa ir jātgriež metodei, nevis jāizdrukā
     public static void sumInArray() {
         int sum = 0;
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) { // arī šeit izmantot labāk foreach konstruciju
             sum += array[i];
         }
         System.out.println("Sum = " + sum);
@@ -33,7 +34,7 @@ public class ArrayService {
 
     public int[] create() {
         array = new int[arrayLength];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) { // arī šeit izmantot labāk foreach konstruciju
             array[i] = fillArrayWithRandomNumbers();
         }
         return array;

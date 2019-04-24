@@ -7,7 +7,7 @@ public class UniqueWordVocabulary {
 
     private Set<String> textLine = new HashSet<>();
 
-    public void addWord(String textline) {
+    public void addWord(String textline) { //typo
         textLine.add(textline);
     }
 
@@ -15,6 +15,7 @@ public class UniqueWordVocabulary {
         System.out.println(textLine);
     }
 
+    //metodei get ir jāatgriež vērtība
     public void getUniqueWords() {
         System.out.println("unique word count " + textLine.size());
     }
